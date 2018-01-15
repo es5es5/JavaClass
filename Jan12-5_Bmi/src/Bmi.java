@@ -23,7 +23,7 @@ public class Bmi {
 		double biman = (weight / standard) * 100;
 		double bmi = ((weight) / (bmiheigh * bmiheigh));
 
-		System.out.printf("----------------\n");
+		System.out.printf("\n----------------\n");
 		System.out.printf("이름\t: \"%s\"\n", name);
 		System.out.printf("키\t: \"%.1fcm\"\n", heigh);
 		System.out.printf("몸무게\t: \"%.1fkg\"\n", weight);
