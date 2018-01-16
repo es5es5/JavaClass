@@ -43,19 +43,19 @@ public class RSMain3 {
 		}
 		System.out.println("---------------");
 
-//		せ
-//		ぞぞぞ
-//		せせせせせ
-//		ぞぞぞぞぞぞぞ
-//		せせせせせせせせせ
-		
+		// せ
+		// ぞぞぞ
+		// せせせせせ
+		// ぞぞぞぞぞぞぞ
+		// せせせせせせせせせ
+
 		for (int i = 1; i <= 5; i++) {
-			for (int j = 1; j <= 9; j++) {
-					if (i % 2 == 0) {
-						System.out.print("ぞ");
-					} else {
-						System.out.print("せ");
-					}
+			for (int j = 1; j <= ((i * 2) - 1); j++) {
+				if (j % 2 == 1) {
+					System.out.print("z");
+				} else {
+					System.out.print("g");
+				}
 			}
 			System.out.println();
 		}
