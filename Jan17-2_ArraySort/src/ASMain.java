@@ -1,7 +1,7 @@
 
 public class ASMain {
 	
-	public static void sort(int[] ar) {
+	public static void bubbleSort(int[] ar) {
 		int temp = 0;
 		
 		for (int i=0; i<ar.length-1; i++) {
@@ -17,7 +17,7 @@ public class ASMain {
 	public static void main(String[] args) {
 		int[] ar = {1012, 2, 11, 124,1353,123421,5432};
 		
-		sort(ar);
+		bubbleSort(ar);
 		
 		for (int i : ar) {
 			System.out.println(i);
