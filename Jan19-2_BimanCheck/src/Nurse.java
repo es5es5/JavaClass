@@ -5,6 +5,5 @@ public class Nurse {
 		
 	}
 	public void sendDoctor(Paper p, Doctor d) {
-		d.calculate(p);
 	}
 }

@@ -7,5 +7,4 @@ public class Player {
 		hand = new Scanner(System.in);
 		return hand.nextInt();
 	}
-	
 }
