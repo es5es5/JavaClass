@@ -11,5 +11,4 @@ public class Box extends Random {
 		}
 		return t;
 	}
-
 }
