@@ -12,6 +12,8 @@ public class Main {
 		System.out.println(h.getAge());
 		
 		Pen p = new Pen("¸ð³ª¹Ì", 1000);
+		p.setName("dddd");
+		
 	}
 
 }
