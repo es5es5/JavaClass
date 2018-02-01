@@ -1,12 +1,12 @@
 package com.lhw.library.main;
 
-import com.lhw.library.data.Seat;
+import com.lhw.library.library.Library;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Seat seat = new Seat();
-		seat.seatInfo();
+		Library lib = new Library();
+		lib.openLibrary();
 	}
 
 }

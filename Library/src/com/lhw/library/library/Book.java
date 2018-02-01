@@ -1,4 +1,4 @@
-package com.lhw.library.data;
+package com.lhw.library.library;
 
 public class Book {
 	private String name;
@@ -14,6 +14,12 @@ public class Book {
 		this.name = name;
 		this.writer = writer;
 		this.isRent = isRent;
+	}
+	
+	public Book(String name, String writer) {
+		super();
+		this.name = name;
+		this.writer = writer;
 	}
 
 	public String getName() {
@@ -40,14 +46,23 @@ public class Book {
 		this.isRent = isRent;
 	}
 	
-	public void info() {
-		System.out.printf("제목 : %s");
-		System.out.printf("작가 : %s");
-		
-		if (isRent){
-			System.out.println("대여 가능");
+	public void bookInfo() {
+		System.out.printf("책 제목 : %s\n", name);
+		System.out.printf("작가 : %s\n", writer);
+		System.out.print("대여 :");
+		if (isRent) {
+			System.out.println("가능\n");
 		} else {
-			System.out.println("대여 불가능");
+			System.out.println("불가능\n");
 		}
 	}
+	
+	public void rentBook(Book b) {
+		b.setRent(false);
+	}
+	
+	public void returnBook(Book b) {
+		b.setRent(true);
+	}
+	
 }
