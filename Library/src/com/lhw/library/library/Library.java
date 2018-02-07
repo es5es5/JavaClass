@@ -57,10 +57,8 @@ public class Library {
 						choice = keyboard.nextInt();
 						if (bookList.get(choice-1).isRent()) {
 							System.out.println("----------------dsfsfsdfsdfsdfsdf");
-							//////////////////////////////////////////////////
 							userList.get(0).addMyBook(bookList.get(choice - 1));
 							bookList.get(choice - 1).setRent(false);
-							///////////////////////////////////////////////
 						} else {
 							System.out.println("대여할 수 없는 책 입니다.");
 						}
